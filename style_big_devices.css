@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+/* Tablet e Desktop */
+
+.bibi-list{
+    display: none;
+}
+
+nav > ul{
+    display: flex;
+    
+    background-color: rgb(183, 182, 182);
+
+    text-align: left;
+    list-style: none;
+}
+
+nav > ul a {
+    width: 10vw;
+
+    margin: 0px 5px;
+    margin-left: 0px;
+    padding: 10px 10px; 
+    
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+        
+    text-align: center;
+
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: rgb(64, 64, 64);
+
+    border-radius: 5px 5px 0px 0px;
+}
+
+a#border_top{
+    width: 10vw;
+
+    margin: 0px 5px;
+    padding: 10px 10px; 
+
+    border: none;
+    border-radius: 5px 5px 0px 0px;
+
+    background-color: rgb(64, 64, 64);
+}
+
+a#border_top:hover, a:hover{
+    transition: .5s;
+
+    color: rgb(197, 197, 197);
+
+    background-color: rgb(43, 42, 42);
+}
+
+main > article{
+    width: 65vw;
+}
